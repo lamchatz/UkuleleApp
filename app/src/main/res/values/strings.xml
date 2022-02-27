@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">UkuTabs</string>
+    <string name="EditText">Write Song Name Here</string>
+    <string name="Button2">Search</string>
+    <string name="Artist">"Write Artist Here"</string>
+    <string name="ButtonT">Transpose</string>
+    <string name="drawerheader">UkuTabs</string>
+    <string name="close">close</string>
+    <string name="open">open</string>
+    <string name="load">Load</string>
+    <string name="save">Save</string>
+    <string name="transpose">Transpose</string>
+    <string name="darkmode">DarkMode</string>
+    <string name="options">Options</string>
+    <string name="keepphoneon">KeepPhoneOn</string>
+    <string name="about">About</string>
+    <string name="open_on_website">Open on Website</string>
+    <string name="requestsong">RequestSong</string>
+    <string name="addsong">AddSong</string>
+    <string-array name="transpose_buttons">
+
+        <item>Pick Half a Step</item>
+        <item>0</item>
+        <item>+1</item>
+        <item>+2</item>
+        <item>+3</item>
+        <item>+4</item>
+        <item>+5</item>
+        <item>+6</item>
+        <item>+7</item>
+        <item>-7</item>
+        <item>-6</item>
+        <item>-5</item>
+        <item>-4</item>
+        <item>-3</item>
+        <item>-2</item>
+        <item>-1</item>
+    </string-array>
+</resources>

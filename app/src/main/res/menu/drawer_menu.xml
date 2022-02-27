@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/spinner"
+        android:icon="@android:drawable/ic_menu_more"
+        android:title="@string/transpose"
+        app:actionLayout="@layout/spinner" />
+
+    <item
+        android:id="@+id/DarkmodeButton"
+        android:title="@string/darkmode" />
+    <item
+        android:id="@+id/Load"
+        android:title="@string/load">
+
+        <menu/>
+    </item>
+
+    <item
+        android:id="@+id/Options"
+        android:title="@string/options">
+
+        <menu>
+            <item
+                android:id="@+id/DarkMode"
+                android:title="@string/darkmode" />
+            <item
+                android:id="@+id/keepPhoneOn"
+                android:title="@string/keepphoneon" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/about"
+        android:title="@string/about">
+
+        <menu>
+            <item
+                android:id="@+id/openWebsite"
+                android:title="@string/open_on_website" />
+            <item
+                android:id="@+id/requestButton"
+                android:title="@string/requestsong" />
+            <item
+                android:id="@+id/addSongButton"
+                android:title="@string/addsong" />
+        </menu>
+    </item>
+
+</menu>
+

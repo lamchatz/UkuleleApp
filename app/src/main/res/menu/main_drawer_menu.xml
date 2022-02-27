@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/Load2"
+        android:title="@string/load">
+
+        <menu/>
+    </item>
+
+    <item
+        android:id="@+id/Options_main"
+        android:title="@string/options">
+
+        <menu>
+            <item
+                android:id="@+id/DarkMode_main"
+                android:title="@string/darkmode" />
+            <item
+                android:id="@+id/keepPhoneOn_main"
+                android:title="@string/keepphoneon" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/about_main"
+        android:title="@string/about">
+
+        <menu>
+            <item
+                android:id="@+id/openWebsite_main"
+                android:title="@string/open_on_website" />
+            <item
+                android:id="@+id/requestButton_main"
+                android:title="@string/requestsong" />
+            <item
+                android:id="@+id/addSongButton_main"
+                android:title="@string/addsong" />
+        </menu>
+    </item>
+</menu>
